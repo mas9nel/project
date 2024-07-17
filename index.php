@@ -1,5 +1,7 @@
 <?php 
     $id = isset($_GET["id"])? $_GET["id"] : "0";
+    $in_stok = isset( $_GET["in_stok"] ) ? $_GET["in_stok"] : "on";
+    $out_stok = isset( $_GET["out_stok"] ) ? $_GET["out_stok"] : false;
     include_once "connect.php";
 ?>
 <!DOCTYPE html>
