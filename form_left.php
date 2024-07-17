@@ -1,8 +1,5 @@
 <!-- форма с левой стороны -->
 <form method="GET" action="index.php" id="left_form">
-    
-    <input type="hidden" name="id" value="0">
-    
     Сортировка по:<br>
     <select name="order_by">
         <option value="rating DESC">Рейтингу</option>
