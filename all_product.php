@@ -3,8 +3,6 @@
     // подключаем функцию вывода текста
     include_once("Audit.php");
    
-    $in_stok = isset( $_GET["in_stok"] ) ? $_GET["in_stok"] : false;
-    $out_stok = isset( $_GET["out_stok"] ) ? $_GET["out_stok"] : false;
     $start_cost = isset( $_GET["start_cost"] ) ? htmlentities($_GET["start_cost"]) : false;
     $end_cost = isset($_GET["end_cost"]) ? htmlentities($_GET["end_cost"]) : false;
     $order_by = isset( $_GET["order_by"] ) ? $_GET["order_by"] : false;
